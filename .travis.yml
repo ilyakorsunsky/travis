@@ -3,3 +3,8 @@ r:
   - release
 cache: packages
 sudo: false
+
+addons:
+  apt:
+    packages:
+      - stringr
